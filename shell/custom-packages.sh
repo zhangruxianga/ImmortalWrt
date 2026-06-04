@@ -7,7 +7,7 @@
 # 考虑到istore商店的集成与否 属于高频操作 故 目前已将集成store的操作放置在 工作流的UI 选项 用户自行勾选 则集成  不勾选则不集成 以减少修改此文件的次数
 
 # 首页和网络向导
-#CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-i18n-quickstart-zh-cn"
+CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-i18n-quickstart-zh-cn"
 # 新增非常好用的文件管理器 sbwml/luci-app-quickfile （luci 23版本不支持 勿集成）
 #CUSTOM_PACKAGES="$CUSTOM_PACKAGES bash quickfile luci-app-quickfile luci-i18n-quickfile-zh-cn"
 # 高级卸载 by YT Vedio Talk
@@ -24,7 +24,7 @@
 #CUSTOM_PACKAGES="$CUSTOM_PACKAGES xray-core sing-box hysteria luci-i18n-passwall-zh-cn"
 # passwall2 已更新到26.5.1
 #CUSTOM_PACKAGES="$CUSTOM_PACKAGES xray-core sing-box hysteria kmod-nft-socket kmod-nft-tproxy luci-app-passwall2 luci-i18n-passwall2-zh-cn"
-#CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-app-openclash"
+CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-app-openclash"
 #CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-i18n-homeproxy-zh-cn"
 # 新版ssrp 支持mihomo
 #CUSTOM_PACKAGES="$CUSTOM_PACKAGES xray-core naiveproxy luci-app-ssr-plus luci-i18n-ssr-plus-zh-cn"
@@ -60,7 +60,7 @@ CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-i18n-nikki-zh-cn"
 # Easytier
 #CUSTOM_PACKAGES="$CUSTOM_PACKAGES easytier luci-app-easytier"
 # 统一文件共享
-#CUSTOM_PACKAGES="$CUSTOM_PACKAGES webdav2 luci-app-unishare"
+CUSTOM_PACKAGES="$CUSTOM_PACKAGES webdav2 luci-app-unishare"
 # IPSec VPN 服务器
 #CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-i18n-ipsec-vpnd-zh-cn"
 # Bandix流量监控 by timsaya
@@ -71,26 +71,26 @@ CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-i18n-nikki-zh-cn"
 #CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-i18n-dufs-zh-cn"
 
 #===========================以下imm仓库内的软件==============================↓
-#CUSTOM_PACKAGES="$CUSTOM_PACKAGES kmod-usb-core"
-#CUSTOM_PACKAGES="$CUSTOM_PACKAGES kmod-usb3"
-#CUSTOM_PACKAGES="$CUSTOM_PACKAGES kmod-usb-net-cdc-ether"
-#CUSTOM_PACKAGES="$CUSTOM_PACKAGES kmod-usb-net-ipheth"
-#CUSTOM_PACKAGES="$CUSTOM_PACKAGES usbutils"
-#CUSTOM_PACKAGES="$CUSTOM_PACKAGES kmod-mii"
-#CUSTOM_PACKAGES="$CUSTOM_PACKAGES kmod-usb2"
-#CUSTOM_PACKAGES="$CUSTOM_PACKAGES kmod-usb-net"
-#CUSTOM_PACKAGES="$CUSTOM_PACKAGES kmod-usb-net-rndis"
-#CUSTOM_PACKAGES="$CUSTOM_PACKAGES kmod-usb-net-cdc-ncm"
-#CUSTOM_PACKAGES="$CUSTOM_PACKAGES kmod-usb-net-ipheth usbutils"
-#CUSTOM_PACKAGES="$CUSTOM_PACKAGES usbmuxd"
-#CUSTOM_PACKAGES="$CUSTOM_PACKAGES libusb-1.0-0"
-#CUSTOM_PACKAGES="$CUSTOM_PACKAGES kmod-usb-net-cdc-eem"
-#CUSTOM_PACKAGES="$CUSTOM_PACKAGES kmod-usb-net-cdc-subset"
-#CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-i18n-diskman-zh-cn"
-#CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-i18n-hd-idle-zh-cn"
-#CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-i18n-nut-zh-cn"
-#CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-i18n-openlist-zh-cn"
-#CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-i18n-ttyd-zh-cn"
+CUSTOM_PACKAGES="$CUSTOM_PACKAGES kmod-usb-core"
+CUSTOM_PACKAGES="$CUSTOM_PACKAGES kmod-usb3"
+CUSTOM_PACKAGES="$CUSTOM_PACKAGES kmod-usb-net-cdc-ether"
+CUSTOM_PACKAGES="$CUSTOM_PACKAGES kmod-usb-net-ipheth"
+CUSTOM_PACKAGES="$CUSTOM_PACKAGES usbutils"
+CUSTOM_PACKAGES="$CUSTOM_PACKAGES kmod-mii"
+CUSTOM_PACKAGES="$CUSTOM_PACKAGES kmod-usb2"
+CUSTOM_PACKAGES="$CUSTOM_PACKAGES kmod-usb-net"
+CUSTOM_PACKAGES="$CUSTOM_PACKAGES kmod-usb-net-rndis"
+CUSTOM_PACKAGES="$CUSTOM_PACKAGES kmod-usb-net-cdc-ncm"
+CUSTOM_PACKAGES="$CUSTOM_PACKAGES kmod-usb-net-ipheth usbutils"
+CUSTOM_PACKAGES="$CUSTOM_PACKAGES usbmuxd"
+CUSTOM_PACKAGES="$CUSTOM_PACKAGES libusb-1.0-0"
+CUSTOM_PACKAGES="$CUSTOM_PACKAGES kmod-usb-net-cdc-eem"
+CUSTOM_PACKAGES="$CUSTOM_PACKAGES kmod-usb-net-cdc-subset"
+CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-i18n-diskman-zh-cn"
+CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-i18n-hd-idle-zh-cn"
+CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-i18n-nut-zh-cn"
+CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-i18n-openlist-zh-cn"
+CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-i18n-ttyd-zh-cn"
 #CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-i18n-3cat-zh-cn"
 #CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-i18n-3ginfo-lite-zh-cn"
 #CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-i18n-acl-zh-cn"
